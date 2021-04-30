@@ -11,16 +11,15 @@ The container shall support the following operations:
     • pop
 Functions
 
-isEmpty()
-Test whether container is empty
-size()
-Return size
-push()
-Insert element
-pop()
-Remove top element
-peek()
-The method returns the element at the top of the stack
+isEmpty()    Test whether container is empty
+
+size()      Return size
+
+push()      Insert element
+
+pop()       Remove top element
+
+peek()     The method returns the element at the top of the stack
 
 Pseudocode:
 Push()
