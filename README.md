@@ -22,40 +22,58 @@ pop()       Remove top element
 peek()     The method returns the element at the top of the stack
 
 Pseudocode:
+
 Push()
+
 step 1. Start
+
 step 2. Push the elements into the stack
+
 step 3. Check if the stack is full or not by comparing top with (MAX-1).
+
 If the stack is full, then print "Stack Overflow".
+
 step 4. Else, the stack is not full
 Increment top by 1 and Set, a[top] = x
 which pushes the element x into the address pointed by top.
+
 step 5. Stop
 
 POP()
+
 step 1. Start
+
 step 2. Push the elements into the stack
+
 step 3. Check if the stack is empty or not by comparing top
 with base of array i.e. 0
 If the stack is full, then print "Stack Overflow".
+
 step 4. Else, If top is greater than zero the stack is not empty,
 then store the value pointed by top in a variable x=a[top]
 and decrement top by 1. The popped element is x.
+
 step 5. Stop
 
 
 
 PEEK()
 
+
 Step 1: Start
+
 
 Step 2: Declare  Stack[MAX]
 
+
 Step 3: Push the elements into the stack 
 
+
 Step 4: Print the value stored in the stack pointed by top.
+
  
 Step 6: Stop
+
 
 
 2. QUEUE
