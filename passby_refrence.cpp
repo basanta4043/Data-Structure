@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void passByValue(int x, int y) //passed by value
+void passByReference(int &x, int &y) //passed by Reference
 {
     int z=x;
     x=y;
@@ -9,7 +9,7 @@ void passByValue(int x, int y) //passed by value
 int main() {
   int a=5 ,b=6;
     cout<<"before swapping"<<endl<<"a:"<<a<<endl<<"b:"<<b<<endl;
-    passByValue(a,b);
+    passByReference(a,b);
 
     cout<<"before swapping"<<endl<<"a:"<<a<<endl<<"b:"<<b<<endl;
     return 0;
